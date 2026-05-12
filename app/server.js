@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Hello from AWS EC2 deployed using Terraform!");
+  res.send("Hello from AWS EC2 deployed using Terraform sudheer!");
 });
 
 app.listen(3000, () => {
